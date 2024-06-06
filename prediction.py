@@ -7,7 +7,7 @@ from PIL import Image
 
 
 def load_model():
-	model_gb=joblib.load('model.joblib')
+	model_gb=joblib.load('model/model.joblib')
 	return model_gb
 
 def run_predict_app():
